@@ -2,7 +2,6 @@ import { useState } from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Navbar from "./components/Navbar";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-
 import ProductsGrid from "./components/ProductGrid";
 import Hero from "./components/Hero";
 import ServicesSection from "./components/ServicesSection";
