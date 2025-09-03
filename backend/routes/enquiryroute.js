@@ -1,7 +1,7 @@
 const router = require("express").Router();
 const Enquiry = require("../models/Enquiry");
 
-// ✅ POST: Add Enquiry
+//  POST: Add Enquiry
 router.post("/addEnquiry", async (req, res) => {
   try {
     const { name, email, contactno, institutionname, requirements } = req.body;

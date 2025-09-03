@@ -1,0 +1,75 @@
+ .testimonial-section {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: white; 
+}
+
+.testimonial-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1a237e;
+  margin-bottom: 20px;
+}
+
+.testimonial-container {
+  background-color: rgba(0, 0, 0, 0.098);
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.testimonial-card {
+  background: #4db6ff;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial-quote {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.author-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid white;
+}
+
+.author-name {
+  font-weight: bold;
+}
+
+.author-school {
+  font-size: 14px;
+  color: #e0f7fa;
+}
+
+.testimonial-dots {
+  margin-top: 20px;
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: gray;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background: #ff4081;
+}
